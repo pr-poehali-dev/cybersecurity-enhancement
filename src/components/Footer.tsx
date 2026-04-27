@@ -38,10 +38,10 @@ export default function Footer() {
                   8 (800) 123-45-67
                 </a>
                 <a
-                  href="mailto:info@chop-tigr.ru"
+                  href="mailto:c.bezopasnosti.31@yandex.ru"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  info@chop-tigr.ru
+                  c.bezopasnosti.31@yandex.ru
                 </a>
                 <a
                   href="#contact"
