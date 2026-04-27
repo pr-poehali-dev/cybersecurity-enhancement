@@ -19,24 +19,41 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/4c59bf4b-5708-48d4-81eb-9190bfe18d3f/files/e0203747-407f-4bc6-9450-9bae49914700.jpg"
-          alt="Охранное предприятие Тигр"
+          src="https://cdn.poehali.dev/projects/4c59bf4b-5708-48d4-81eb-9190bfe18d3f/files/0866c6e2-f812-4643-8b12-000b9a9717d8.jpg"
+          alt="ЧОП Тигр — охрана и безопасность"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black/60" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white px-4">
-        <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-4 opacity-70">ООО ЧОП</p>
-        <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-6">
+        <p className="text-[10px] md:text-xs uppercase tracking-[0.5em] mb-6 opacity-50 font-light">
+          Общество с ограниченной ответственностью
+        </p>
+        <p className="text-xs md:text-sm uppercase tracking-[0.4em] mb-3 opacity-60">
+          Частное охранное предприятие
+        </p>
+        <h1
+          className="font-bold mb-2 leading-none"
+          style={{
+            fontSize: "clamp(5rem, 18vw, 16rem)",
+            letterSpacing: "-0.02em",
+            textShadow: "0 0 80px rgba(255,200,80,0.15)",
+          }}
+        >
           ТИГР
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 font-light">
+        <div className="flex items-center justify-center gap-4 mb-8 opacity-40">
+          <div className="h-px w-16 bg-white" />
+          <p className="text-xs uppercase tracking-[0.4em]">с 1998 года</p>
+          <div className="h-px w-16 bg-white" />
+        </div>
+        <p className="text-base md:text-lg max-w-xl mx-auto opacity-80 font-light tracking-wide">
           Надёжная охрана объектов, персонала и ценностей — 24/7
         </p>
         <a
           href="#contact"
-          className="inline-block mt-10 px-8 py-3 border border-white text-white uppercase text-sm tracking-widest hover:bg-white hover:text-black transition-all duration-300"
+          className="inline-block mt-10 px-10 py-3 border border-white/60 text-white uppercase text-xs tracking-[0.3em] hover:bg-white hover:text-black transition-all duration-300"
         >
           Получить консультацию
         </a>
