@@ -19,7 +19,7 @@ export default function ContactForm() {
     e.preventDefault();
     setStatus("loading");
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("https://functions.poehali.dev/cfe33884-d36e-4e94-868f-38b65b6348f3", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
@@ -52,8 +52,8 @@ export default function ContactForm() {
             </div>
             <div>
               <p className="text-xs uppercase tracking-widest text-neutral-400 mb-1">Email</p>
-              <a href="mailto:info@chop-tigr.ru" className="text-lg text-neutral-900 hover:text-neutral-600 transition-colors">
-                info@chop-tigr.ru
+              <a href="mailto:c.bezopasnosti.31@yandex.ru" className="text-lg text-neutral-900 hover:text-neutral-600 transition-colors">
+                c.bezopasnosti.31@yandex.ru
               </a>
             </div>
             <div>
