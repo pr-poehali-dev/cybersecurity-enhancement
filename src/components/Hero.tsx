@@ -19,7 +19,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/4c59bf4b-5708-48d4-81eb-9190bfe18d3f/files/0866c6e2-f812-4643-8b12-000b9a9717d8.jpg"
+          src="https://cdn.poehali.dev/projects/4c59bf4b-5708-48d4-81eb-9190bfe18d3f/files/ff32ef54-5a11-4669-9d61-4b22411c1639.jpg"
           alt="ЧОП Тигр — охрана и безопасность"
           className="w-full h-full object-cover"
         />
