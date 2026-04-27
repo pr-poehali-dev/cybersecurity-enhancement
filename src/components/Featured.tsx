@@ -8,32 +8,35 @@ export default function Featured() {
           className="w-full h-full object-cover"
         />
       </div>
-      <div id="services" className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Наши услуги</h3>
+      <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Белгород · Старый Оскол · Курск</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Охрана объектов, физическая защита персонала, пультовая охрана и сопровождение грузов — полный спектр услуг безопасности для бизнеса.
+          Более 100 лицензированных охранников. Руководители — выходцы из МВД, ФСБ, Вооружённых сил и Росгвардии.
         </p>
         <div className="flex flex-col gap-3 mb-8">
           <div className="flex items-start gap-3">
-            <span className="text-neutral-400 text-sm uppercase tracking-wide w-6">01</span>
-            <span className="text-neutral-700">Охрана объектов и территорий</span>
+            <span className="text-neutral-400 text-sm font-mono w-6 shrink-0">01</span>
+            <span className="text-neutral-700 text-sm">Работаем с 1998 года — более 25 лет опыта</span>
           </div>
           <div className="flex items-start gap-3">
-            <span className="text-neutral-400 text-sm uppercase tracking-wide w-6">02</span>
-            <span className="text-neutral-700">Физическая охрана персонала</span>
+            <span className="text-neutral-400 text-sm font-mono w-6 shrink-0">02</span>
+            <span className="text-neutral-700 text-sm">Квалификация 4–6 разряда, регулярные экзамены</span>
           </div>
           <div className="flex items-start gap-3">
-            <span className="text-neutral-400 text-sm uppercase tracking-wide w-6">03</span>
-            <span className="text-neutral-700">Пультовая охрана и мониторинг 24/7</span>
+            <span className="text-neutral-400 text-sm font-mono w-6 shrink-0">03</span>
+            <span className="text-neutral-700 text-sm">Проверка на пригодность к применению оружия</span>
           </div>
           <div className="flex items-start gap-3">
-            <span className="text-neutral-400 text-sm uppercase tracking-wide w-6">04</span>
-            <span className="text-neutral-700">Сопровождение ценных грузов</span>
+            <span className="text-neutral-400 text-sm font-mono w-6 shrink-0">04</span>
+            <span className="text-neutral-700 text-sm">Индивидуальный подход к каждому клиенту</span>
           </div>
         </div>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
+        <a
+          href="#contact"
+          className="bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide"
+        >
           Заказать охрану
-        </button>
+        </a>
       </div>
     </div>
   );
